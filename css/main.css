@@ -1,0 +1,409 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*:focus {
+    outline: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+body
+{
+    font-family: 'BebasNeueRegular';
+    text-align: center;
+    background-color: #f3f8fb;
+    color: #694343;
+    outline: none;
+}
+
+.text-logo, #combinations h1
+{
+    color: #694343;
+    font-size: 3em;
+    padding: 0;
+    margin: 10px 0 20px 0;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4)
+}
+
+.text-logo span
+{
+    color: #af5279;
+}
+
+.link-desc {
+    width: 425px;
+    padding: 10px 0;
+    color: #61b3de;
+    border: 1px solid #61b3de;
+    border-bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.link-desc:hover, 
+.select-button:hover{
+    background: #61b3de;
+    color: #fefefe;
+}
+
+#main-container
+{    
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.select-option
+{
+    position: relative;
+    width: 10%;
+    min-width: 100px;
+    float: left;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.select-button
+{
+    text-align: right;
+    padding: 11px 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.selected {
+    background: #af5279;
+    color: #fefefe;
+    cursor: default;
+}
+
+#one-column-emphasis {
+    font-size: 1.2em;
+    width: 80%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #61b3de;
+}
+
+#one-column-emphasis th {
+    font-size: 1.3em;
+    font-weight: normal;
+    padding: 10px 10px;
+}
+
+#one-column-emphasis td {
+    border-top: 1px solid #e8edff;
+    padding: 10px 10px;
+}
+
+#one-column-emphasis tr:hover td {
+    background: #eff2ff;
+}
+
+#one-column-emphasis td a{
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+#main-footer a:link, #one-column-emphasis td a:link {color: #af5279;}      /* unvisited link */
+#main-footer a:visited, #one-column-emphasis td a:visited {color: #af5279;}  /* visited link */
+#main-footer a:hover, #one-column-emphasis td a:hover {color: #9fd0e5;}  /* mouse over link */
+#main-footer a:active, #one-column-emphasis td a:active {color: #694343;}  /* selected link */
+
+.clear{
+    clear: both;
+}
+
+.table-explain {
+    font-size: 1.1em;
+    font-weight: normal;
+    padding: 10px 10px;
+    float: right;
+    margin-right: 10%;
+}
+
+#combinations{
+    
+}
+
+#combinations h1{
+    font-size: 3em;
+    color: #61b3de;
+    margin: 5px 0 5px 0;
+}
+
+.combination-table{
+    width: 90%!important;
+    margin-left: 5%!important;
+}
+
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: -2000px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+.white_content {
+    display: none;
+    position: absolute;
+    top: -1200px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+
+.close
+{
+    width: 80px;
+    height: 76px;
+    position: absolute;
+    left:90%;
+    top:0;
+    background: url('../img/close.png') no-repeat;
+    background-position: -1120px 0;
+    cursor: pointer;
+}
+
+#main-footer {
+    font-size: 2em;
+    position: relative;
+    z-index: 10;
+    clear: both;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
